@@ -16,4 +16,8 @@
   .benefits-title {
     text-align: start;
   }
+
+  .our-team-item {
+    flex-basis: calc((100% - 16px) / 1);
+  }
 }

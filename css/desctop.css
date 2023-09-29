@@ -25,7 +25,6 @@
 
   .benefits-title,
   .employee-title {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -50,5 +49,34 @@
 
   .made-item {
     width: calc((100% - 3 * 16px) / 3);
+  }
+
+  .team {
+    padding: 120px 0;
+  }
+
+  .our-team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .our-team-item {
+    flex-basis: calc((100% - 72px) / 4);
+    background-color: var(--section-bg-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .section-customer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
   }
 }
