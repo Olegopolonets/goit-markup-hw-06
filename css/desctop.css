@@ -6,6 +6,10 @@
   .section {
     padding: 120px 0;
   }
+  /* header */
+  .header-menu-btn {
+    display: none;
+  }
   .hero {
     padding: 188px 0;
   }
