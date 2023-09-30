@@ -3,6 +3,21 @@
     max-width: 768px;
     padding: 0 16px;
   }
+
+  /* header */
+  .header-menu-btn {
+    display: none;
+  }
+  .navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+  .address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  /*  */
   .hero-title {
     font-size: 56px;
     line-height: 1.07;

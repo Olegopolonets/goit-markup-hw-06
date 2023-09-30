@@ -29,7 +29,26 @@
   row-gap: 72px;
   column-gap: 24px;
 }
+/* header */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: none;
+}
+
+.address-list {
+  display: none;
+}
+/* */
 .hero-title {
   font-size: 36px;
   font-weight: 700;
