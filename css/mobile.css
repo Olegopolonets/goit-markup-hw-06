@@ -193,6 +193,20 @@
   margin: 0;
 }
 
+.customers-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.customer-item {
+  width: calc((100% - 24px) / 2);
+  height: 88px;
+  max-width: 190px;
+}
+
 /* hero */
 
 @media screen and (min-width: 428px) {

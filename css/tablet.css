@@ -20,4 +20,9 @@
   .our-team-item {
     flex-basis: calc((100% - 16px) / 1);
   }
+
+  .customer-item {
+    width: calc((100% - 24px) / 1);
+    max-width: 168px;
+  }
 }
