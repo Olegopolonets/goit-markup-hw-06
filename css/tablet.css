@@ -40,4 +40,16 @@
     width: calc((100% - 24px) / 1);
     max-width: 168px;
   }
+
+  .footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 24px;
+    row-gap: 72px;
+    padding-left: 108px;
+  }
+  .footer-description {
+    max-width: 264px;
+  }
 }
