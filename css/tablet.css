@@ -49,7 +49,18 @@
     row-gap: 72px;
     padding-left: 108px;
   }
+  .footer-logo {
+    margin-right: 120px;
+  }
   .footer-description {
     max-width: 264px;
+  }
+
+  .subscribe-email {
+    width: 264px;
+  }
+
+  .footer-social-box {
+    margin-right: 80px;
   }
 }
