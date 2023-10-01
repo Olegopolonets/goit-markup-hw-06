@@ -50,17 +50,42 @@
     padding-left: 108px;
   }
   .footer-logo {
-    margin-right: 120px;
+    margin: 0;
+  }
+  .footer-inline-block {
+    margin: 0;
+    margin-right: auto;
   }
   .footer-description {
     max-width: 264px;
+  }
+
+  .footer-social-box {
+    margin: 0;
+  }
+  .footer-social-title {
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 22px;
+  }
+  .footer-social-box {
+    margin-right: 80px;
   }
 
   .subscribe-email {
     width: 264px;
   }
 
-  .footer-social-box {
-    margin-right: 80px;
+  .subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .subscribe-button {
+    margin: 0;
+  }
+
+  .subscribe-caption {
+    margin-right: auto;
   }
 }
