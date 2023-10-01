@@ -111,9 +111,11 @@
     height: 88px;
   }
   .footer .container {
+    justify-content: space-between;
     flex-direction: row;
     align-items: baseline;
     gap: 0;
+    padding-left: 0;
   }
   .subscribe-wrapper {
     max-width: 465px;
