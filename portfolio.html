@@ -18,6 +18,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desctop.css" />
   </head>
   <body>
     <header class="header">
@@ -34,7 +37,7 @@
               <a class="navigation-link link link-portfolio" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link link" href="">Contacts</a>
+              <a class="navigation-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -49,6 +52,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="header-menu-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="toggle-menu-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -268,7 +280,7 @@
 
     <footer class="footer">
       <div class="container flex-footer">
-        <div class="footer-logo">
+        <div class="footer-block footer-logo">
           <a class="logo link footer-inline-block" href="./index.html">
             Web<span class="logo-decor-footer">Studio</span>
           </a>
@@ -277,7 +289,7 @@
             growth solutions.
           </p>
         </div>
-        <div class="footer-social-box">
+        <div class="footer-block footer-social-box">
           <p class="footer-social-title">Social media</p>
           <ul class="footer-socials list">
             <li class="footer-social-item">
@@ -334,9 +346,9 @@
             </li>
           </ul>
         </div>
-        <div class="subscribe-wrapper">
+        <div class="footer-block subscribe-wrapper">
           <p class="subscribe-caption">Subscribe</p>
-          <form class="sucscribe-form">
+          <form class="subscribe-form">
             <label for="email" class="subscribe-label">
               <input
                 type="email"
@@ -357,5 +369,95 @@
         </div>
       </div>
     </footer>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="mobile-menu-close js-close-menu">
+        <svg class="menu-toggle-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link current link" href="#">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="#">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li class="mobile-contact-item">
+          <a class="mobile-contact-link link accent" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-contact-item">
+          <a class="mobile-contact-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link link"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link link"
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link link"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Twitter link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            class="mobile-socials-link link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Linkedin link"
+          >
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
