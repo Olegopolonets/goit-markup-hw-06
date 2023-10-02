@@ -24,6 +24,12 @@
     gap: 40px;
   }
 
+  .address-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
   /*  */
   .hero {
     padding: 188px 0;
@@ -64,9 +70,13 @@
   .characteristic,
   .employee-description {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+  }
+  .pt-0 {
+    padding-top: 0;
   }
   .made-d-none {
     display: block;
@@ -134,5 +144,8 @@
   /* portfolio.html */
   .portfolio-content {
     padding: 100px 0 120px 0;
+  }
+  .portfolio-card {
+    width: calc((100% - 48px) / 3);
   }
 }

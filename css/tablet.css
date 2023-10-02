@@ -18,6 +18,12 @@
     flex-direction: column;
     gap: 12px;
   }
+
+  .address-link {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+  }
   /*  */
   .hero {
     max-width: 768px;
@@ -118,10 +124,13 @@
 
   .portfolio-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 48px;
+    justify-content: start;
   }
 
   .portfolio-card {
-    flex-basis: calc((100% - 2 - 1) * 24px / 2);
+    width: calc((100% - 24px) / 2);
   }
 }

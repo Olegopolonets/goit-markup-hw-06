@@ -132,9 +132,6 @@
 .address-link {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.02em;
 }
 
@@ -148,6 +145,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
   max-width: 428px;
   overflow: hidden;
   margin: auto;
@@ -332,6 +330,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  row-gap: 72px;
 }
 
 .customer-item {
@@ -406,6 +405,11 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   margin-bottom: 16px;
+}
+
+.footer-logo > .logo {
+  padding-top: 0;
+  padding-bottom: 17px;
 }
 
 .footer-logo {
@@ -557,11 +561,11 @@
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: start;
+  justify-content: center;
 }
 
 .portfolio-card {
-  flex-basis: calc((100% - 1 - 1) * 24px / 1);
+  width: calc((100% - 0) / 1);
 }
 
 .card-link {
