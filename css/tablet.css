@@ -109,6 +109,12 @@
     margin-right: auto;
   }
 
+  .modal {
+    width: 408px;
+    max-width: 408px;
+    min-height: 500px;
+  }
+
   /* portfolio.html */
   .portfolio-content {
     padding: 64px 0 96px 0;
