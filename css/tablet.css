@@ -19,6 +19,19 @@
     gap: 12px;
   }
   /*  */
+  .hero {
+    max-width: 768px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/bg/hero-bg_tablet.jpg);
+  }
+
+  @media screen and (min-width: 767.98px) and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/bg/hero-bg@2x_tablet.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
