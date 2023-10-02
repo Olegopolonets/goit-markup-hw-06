@@ -2,6 +2,7 @@
   .container {
     max-width: 768px;
     padding: 0 16px;
+    margin: 0 auto;
   }
 
   /* header */
@@ -87,5 +88,27 @@
 
   .subscribe-caption {
     margin-right: auto;
+  }
+
+  /* portfolio.html */
+  .portfolio-content {
+    padding: 64px 0 96px 0;
+  }
+
+  .category-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    flex-wrap: nowrap;
+  }
+
+  .portfolio-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio-card {
+    flex-basis: calc((100% - 2 - 1) * 24px / 2);
   }
 }
