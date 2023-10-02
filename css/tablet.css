@@ -122,6 +122,10 @@
     flex-wrap: nowrap;
   }
 
+  .category-button {
+    padding: 12px 24px;
+  }
+
   .portfolio-list {
     display: flex;
     flex-wrap: wrap;
