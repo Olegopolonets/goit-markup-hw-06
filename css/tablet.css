@@ -26,7 +26,7 @@
   }
   /*  */
   .hero {
-    max-width: 768px;
+    max-width: 1158px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg/hero-bg_tablet.jpg);
   }
